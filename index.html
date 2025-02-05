@@ -17,7 +17,7 @@
     }
 
     /* First Div */
-    .header {
+     .header {
       height: 600px;
       background-color: pink;
       display: flex;
@@ -25,7 +25,26 @@
       align-items: flex-start;
       padding: 10px 20px;
 
+     background-image: url('test4.jpg'); /* Replace with your image URL */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Makes the image cover the entire container */
+    background-position: center; /* Centers the image in the container */
+    width: 100%; /* Set container width */
+
     }
+
+@media (max-width: 768px) {
+.header{
+
+
+ background-image: url('test4.jpg'); /* Replace with your image URL */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Makes the image cover the entire container */
+    background-position: center; /* Centers the image in the container */
+    width: 100%; /* Set container width */
+}
+}
+
 
     .header .logo-title {
       display: flex;
@@ -246,7 +265,7 @@ margin:50px;
 </head>
 <body>
   <!-- First Div -->
-  <div class="header"  style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('test4.jpg'); background-size: cover;background-repeat: no-repeat;">
+  <div class="header"  >
     <div class="logo-title">
       <div class="logo">🌟</div>
       <div class="title" style="color:gold;font-size:25px;background-color:black;"><i>Lee Kinyanjui</i></div>
